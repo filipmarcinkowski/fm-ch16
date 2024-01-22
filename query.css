@@ -1,0 +1,24 @@
+@media (max-width: 24em) {
+  body {
+    background: url(./assets/images/background-pattern-mobile.svg),
+      var(--clr-primary-300);
+
+    background-repeat: no-repeat;
+    background-size: contain, auto;
+    background-position: top;
+    font-size: 1.4rem;
+  }
+  .container {
+    max-width: 32rem;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .question__text {
+    font-size: 1.6rem;
+  }
+}
